@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     libs.plugins.run {
         alias(kt.multiplatform)
-//        alias(graphql)
+        alias(graphql)
     }
 }
 
@@ -56,8 +56,8 @@ kotlin {
     }
 }
 
-//apollo {
-//    service("service") {
-//        packageName.set("$group.generated.graphql")
-//    }
-//}
+apollo {
+    service("service") {
+        packageName.set("$group.generated.graphql")
+    }
+}
