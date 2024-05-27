@@ -1,3 +1,5 @@
+Linked to [#5922](https://github.com/apollographql/apollo-kotlin/issues/5922)
+
 Repository to show the [IDEA](https://www.jetbrains.com/idea) display bug due to the use of [Apollo Plugin](https://github.com/apollographql/apollo-kotlin)
 
 The bug impacts only the IDE display, however the code compiles and runs without any issue.
